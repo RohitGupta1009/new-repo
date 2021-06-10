@@ -1,0 +1,14 @@
+.parent
+{
+    background-color: aqua;
+}
+.child
+{
+   background-color: blueviolet;
+   padding: 10px; 
+   display: inline-block;     /* span by default is inline 
+                                 div by default is block 
+                                 but here we have converted both into inline- block*/
+   margin: 30px;
+
+}

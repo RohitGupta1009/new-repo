@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.parent
+{  
+    position: relative;      /* for its child otherwise child will run away out of parent*/
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+}
+.child
+{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute ; /*
+     Absolute position means that i am responsible to place the element according to my details. 
+     According to my details the browser will place the element.
+     I have to make sure that it's parent has relative position for the child to be attached to its parent */
+    right: 0;
+    bottom: 0;
+
+}

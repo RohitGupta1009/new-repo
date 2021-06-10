@@ -1,0 +1,21 @@
+ /* Universal selector*/
+ *
+ {
+     margin: 0px;
+ }
+.parent
+{
+    display: inline-block;
+    background-color: black;
+    width: 100px;
+    height:100px;
+    padding: 10px;       /* Give padding always to the parent of that targeted tag*/
+    margin: 200px;
+}
+.content
+{
+     background-color: burlywood;
+     width:100%;
+     height:100%;
+    
+}
